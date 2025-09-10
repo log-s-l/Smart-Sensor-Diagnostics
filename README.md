@@ -67,19 +67,6 @@ It shows:
 Launches automatically when you run run_all.py.
 
 # Configurations
-**Simulator Profiles**
-Defined in simulator.py:
-
-- normal --> safe values
-
-- degraded --> borderline but mostly safe
-
-- failure --> out-of-range values, frequent faults
-
-```bash
-simulate_sensors(interval=1, profile="failure", max_rows=50)
-```
-
 **Fault Thresholds**
 Defined in fault_detector.py
 ```bash
